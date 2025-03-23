@@ -1,4 +1,87 @@
-baseURL = "https://Zac2049.github.io/"
-languageCode = "zh-cn"
-title = "我的 Typo 博客"
-theme = "typo"
+baseURL = 'https://zac2049.github.io/'
+languageCode = 'zh-cn'
+title = 'Hedgehugger Land'
+theme = 'typo'
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+[taxonomies]
+tag = 'tags'
+category = 'categories'
+
+[params]
+description = "技术分享与个人思考"
+
+# Add Google Fonts
+googleFonts = [
+  "Noto+Serif:400,700",
+  "Noto+Serif+SC:400,700", 
+  "Noto+Sans:400,700",
+  "Noto+Sans+SC:400,700",
+  "JetBrains+Mono:400,700"
+]
+
+# Appearance settings
+colorScheme = 'auto'
+hideHeader = false
+
+# Lists parameters
+paginationSize = 10
+listSummaries = true
+listDateFormat = '2006年01月02日'
+
+# Social icons
+[[params.social]]
+name = "github"
+url = "https://github.com/Zac2049"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/penghui-li-a9b711229/"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/hedgehugger_"
+
+[[params.social]]
+name = "mail"
+url = "mailto:perfectblue@duck.com"
+
+# Main menu
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "categories"
+url = "/categories"
+
+[[params.menu]]
+name = "tags"
+url = "/tags"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight
+[markup.highlight]
+style = 'monokai'
+lineNos = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# Comments
+[params.giscus]
+enable = false
+repo = "Zac2049/Zac2049.github.io"
+repoid = "R_kgDOLkbMmA"
+category = "General"
+categoryid = "DIC_kwDOLkbMmM4CdXXX"
+mapping = "pathname"
+theme = "preferred_color_scheme"

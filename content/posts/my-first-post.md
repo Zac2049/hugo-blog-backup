@@ -1,8 +1,13 @@
 ---
-title: "My First Blog Post"
-date: 2025-03-22T18:44:55+08:00
+title: "我的第一篇文章"
+date: 2025-03-23T10:00:00+08:00
 draft: false
+tags: ["技术", "生活"]
+categories: ["笔记"]
+featured_image: "/images/my-image.jpg"
 ---
+
+# Hiii
 
 ## Welcome to My Blog!
 

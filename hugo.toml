@@ -1,0 +1,4 @@
+baseURL = "https://Zac2049.github.io/"
+languageCode = "zh-cn"
+title = "我的 Typo 博客"
+theme = "typo"

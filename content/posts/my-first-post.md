@@ -61,3 +61,16 @@ You can also use `inline code` within a paragraph.
 Thank you for visiting my blog! This is just the beginning of what I hope will be a wonderful journey of sharing and learning. I plan to post regularly about topics I'm passionate about, and I look forward to engaging with readers and building a community here.
 
 Feel free to leave comments or reach out if you have any questions or suggestions for future posts. See you in the next one!
+
+## Code example
+
+```python
+def add(a, b):
+    return a + b
+print(add(2, 3))
+```
+
+## Math Example
+$$
+E = mc^2
+$$

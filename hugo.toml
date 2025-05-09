@@ -5,6 +5,11 @@ theme = 'typo'
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
+[markup]
+  [markup.highlight]
+    style = "monokai" # 可选样式，如 monokai, dracula, github
+    lineNumbers = true
+
 [taxonomies]
 tag = 'tags'
 category = 'categories'

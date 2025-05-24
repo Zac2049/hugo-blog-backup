@@ -73,9 +73,13 @@ url = "/about"
 style = 'monokai'
 lineNos = true
 
-[markup.goldmark.renderer]
-unsafe = true
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      delimiters = ["\\(", "\\)", "\\[", "\\]"]
+    
 # Comments
 [params.giscus]
 enable = false

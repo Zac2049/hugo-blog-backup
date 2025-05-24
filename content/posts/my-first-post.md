@@ -5,6 +5,7 @@ draft: false
 tags: ["技术", "生活"]
 categories: ["笔记"]
 featured_image: "/images/my-image.jpg"
+math: true
 ---
 
 # Hiii
@@ -71,6 +72,6 @@ print(add(2, 3))
 ```
 
 ## Math Example
-$$
+$
 E = mc^2
-$$
+$

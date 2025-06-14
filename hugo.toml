@@ -26,8 +26,8 @@ colorScheme = 'auto'
 hideHeader = false
 
 # Lists parameters
-paginationSize = 10
-listSummaries = true
+paginationSize = 4
+listSummaries = false
 listDateFormat = '2006年01月02日'
 
 # Social icons
@@ -57,10 +57,6 @@ name = "posts"
 url = "/posts"
 
 [[params.menu]]
-name = "categories"
-url = "/categories"
-
-[[params.menu]]
 name = "tags"
 url = "/tags"
 
@@ -71,7 +67,6 @@ url = "/about"
 # Syntax highlight
 [markup.highlight]
 style = 'monokai'
-lineNos = true
 
 [markup]
   [markup.goldmark]

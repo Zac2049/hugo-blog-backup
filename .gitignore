@@ -2,5 +2,7 @@ data
 assets
 i18n
 layouts
-public
+/public/*
+!/public/
+
 archetypes

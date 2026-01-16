@@ -26,7 +26,7 @@ colorScheme = 'auto'
 hideHeader = false
 
 # Lists parameters
-paginationSize = 4
+paginationSize = 10
 listSummaries = false
 listDateFormat = '2006年01月02日'
 

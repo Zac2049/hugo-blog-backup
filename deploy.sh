@@ -33,9 +33,9 @@ if [ -z "$BRANCH" ]; then
   exit 1
 fi
 
-git pull --rebase
 git add -A
 git commit -m "Publish site: $(date +%F-%H%M)" || true
+git pull --rebase
 git push
 
 # 4) 父仓库记录 submodule 指针

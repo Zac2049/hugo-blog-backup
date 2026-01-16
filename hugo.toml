@@ -22,7 +22,7 @@ googleFonts = [
 ]
 
 # Appearance settings
-colorScheme = 'auto'
+colorScheme = 'dark'
 hideHeader = false
 
 # Lists parameters

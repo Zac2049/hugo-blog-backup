@@ -8,7 +8,7 @@ featured_image: "/images/my-image.jpg"
 math: true
 ---
 
-# Hiii
+# Hi
 
 ## Welcome to My Blog!
 

@@ -1,7 +1,9 @@
 +++
 title = 'Tmux使用指南'
 date = 2026-05-15T16:59:21+08:00
-draft = true
+draft = false
+tags = ["工具", "效率"]
+categories = ["笔记"]
 +++
 
 `tmux` (Terminal Multiplexer) 是一个终端复用器，允许你在一个终端窗口中管理多个会话、窗口和面板。即使断开 SSH 连接，`tmux` 中运行的任务也会继续在后台运行。

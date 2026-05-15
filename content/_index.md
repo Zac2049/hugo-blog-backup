@@ -1,4 +1,4 @@
-**Hi, I'm Hedgehugger.**
+**Hi, I'm PerfectBlue.**
 
 I am an Chinese Developer, getting to know the world and understand my own.
 
@@ -7,6 +7,6 @@ I am an Chinese Developer, getting to know the world and understand my own.
 
 \
 \
-Hint, this blog has mixed language.
+Hint, this land is multilingual.
 
 提示，这篇博客语言混杂。
